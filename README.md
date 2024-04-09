@@ -6,7 +6,12 @@ ticketing system
 
 ## Troubleshoot
 
-Volume not persisting when use `sudo docker-compose restart`
+Volume not persisting when using `sudo docker-compose restart`
+
+check
+
+```groups nahid
+less /etc/passwd```
 
 add this
 
