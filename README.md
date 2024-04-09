@@ -8,10 +8,12 @@ ticketing system
 
 Volume not persisting when using `sudo docker-compose restart`
 
-check
+check user status by this:
 
-```groups nahid
-less /etc/passwd```
+`groups nahid`
+
+`less /etc/passwd`
+
 
 add this
 
