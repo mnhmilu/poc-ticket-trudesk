@@ -23,6 +23,9 @@ To check mongo service configuraiton info `sudo systemctl status mongod`
 use `cat /etc/mongod.conf` to check mongodb configuration and log location 
 
 use `journalctl -u mongod.service` to check error of mongod service error
+
+
+Do not use docker-compose as it is not stable 
 `
 
 ## References
