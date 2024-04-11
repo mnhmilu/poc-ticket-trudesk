@@ -14,6 +14,9 @@ ticketing system
 
 ## Troubleshoot
 
+To get all service list in ubuntu use `systemctl list-units --type=service`
+`
+
 Suddenly application stopped reason was full disk space 
 
 To check disk space use `df -h`
