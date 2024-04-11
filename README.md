@@ -27,6 +27,11 @@ use `cat /etc/mongod.conf` to check mongodb configuration and log location
 
 use `journalctl -u mongod.service` to check error of mongod service error
 
+To get mongod conf and other info use `systemctl show -p FragmentPath mongod`
+
+now use `cat /lib/systemd/system/mongod.service` to view service details 
+
+
 
 Do not use docker-compose as it is not stable 
 `
